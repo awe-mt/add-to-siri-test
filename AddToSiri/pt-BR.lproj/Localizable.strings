@@ -1,0 +1,9 @@
+/* 
+  Localizable.strings
+  AddToSiri
+
+  Created by Anthony on 2019/10/09.
+  Copyright © 2019 Moneytree KK. All rights reserved.
+*/
+
+"invocation_phrase" = "Vamos adicionar um novo Siri Shortcut!";

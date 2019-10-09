@@ -107,6 +107,9 @@
 		929C4C0E234DDAFD00033F63 /* IntentKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IntentKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		929C4C11234DDAFD00033F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		929C4C1B234DDB5600033F63 /* Intents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = Intents.intentdefinition; sourceTree = "<group>"; };
+		929C4C1F234DDE2800033F63 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Main.strings"; sourceTree = "<group>"; };
+		929C4C20234DDE2900033F63 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		929C4C21234DDE2900033F63 /* pt-BR */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "pt-BR"; path = "pt-BR.lproj/Localizable.strings"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -367,6 +370,7 @@
 				en,
 				Base,
 				ja,
+				"pt-BR",
 			);
 			mainGroup = 929C4BB2234DD2F100033F63;
 			productRefGroup = 929C4BBC234DD2F100033F63 /* Products */;
@@ -500,6 +504,7 @@
 			children = (
 				929C4BC5234DD2F100033F63 /* Base */,
 				929C4BEE234DD5F300033F63 /* ja */,
+				929C4C1F234DDE2800033F63 /* pt-BR */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -509,6 +514,7 @@
 			children = (
 				929C4BCA234DD2F500033F63 /* Base */,
 				929C4BEF234DD5F300033F63 /* ja */,
+				929C4C20234DDE2900033F63 /* pt-BR */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -518,6 +524,7 @@
 			children = (
 				929C4BF5234DD80800033F63 /* en */,
 				929C4BF7234DD80A00033F63 /* ja */,
+				929C4C21234DDE2900033F63 /* pt-BR */,
 			);
 			name = Localizable.strings;
 			sourceTree = "<group>";
