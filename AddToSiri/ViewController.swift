@@ -8,13 +8,14 @@
 
 import Intents
 import IntentsUI
+import IntentKit
 import UIKit
 
 class ViewController: UIViewController {
 
   @objc
   func addToSiri(_ sender: Any) {
-    let intent = INIntent()
+    let intent = IntentIntent()
     // Setting the invocation phrase here pre-fills it in the view controller.
     intent.suggestedInvocationPhrase = NSLocalizedString("invocation_phrase", comment: "")
     if let shortcut = INShortcut(intent: intent) {
