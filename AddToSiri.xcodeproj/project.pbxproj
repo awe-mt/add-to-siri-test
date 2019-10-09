@@ -1,0 +1,595 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		929C4BBF234DD2F100033F63 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C4BBE234DD2F100033F63 /* AppDelegate.swift */; };
+		929C4BC1234DD2F100033F63 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C4BC0234DD2F100033F63 /* SceneDelegate.swift */; };
+		929C4BC3234DD2F100033F63 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C4BC2234DD2F100033F63 /* ViewController.swift */; };
+		929C4BC6234DD2F100033F63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929C4BC4234DD2F100033F63 /* Main.storyboard */; };
+		929C4BC8234DD2F500033F63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 929C4BC7234DD2F500033F63 /* Assets.xcassets */; };
+		929C4BCB234DD2F500033F63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 929C4BC9234DD2F500033F63 /* LaunchScreen.storyboard */; };
+		929C4BD6234DD2F500033F63 /* AddToSiriTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C4BD5234DD2F500033F63 /* AddToSiriTests.swift */; };
+		929C4BE1234DD2F500033F63 /* AddToSiriUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929C4BE0234DD2F500033F63 /* AddToSiriUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		929C4BD2234DD2F500033F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 929C4BB3234DD2F100033F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 929C4BBA234DD2F100033F63;
+			remoteInfo = AddToSiri;
+		};
+		929C4BDD234DD2F500033F63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 929C4BB3234DD2F100033F63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 929C4BBA234DD2F100033F63;
+			remoteInfo = AddToSiri;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		929C4BBB234DD2F100033F63 /* AddToSiri.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddToSiri.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		929C4BBE234DD2F100033F63 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		929C4BC0234DD2F100033F63 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		929C4BC2234DD2F100033F63 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		929C4BC5234DD2F100033F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		929C4BC7234DD2F500033F63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		929C4BCA234DD2F500033F63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		929C4BCC234DD2F500033F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929C4BD1234DD2F500033F63 /* AddToSiriTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddToSiriTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		929C4BD5234DD2F500033F63 /* AddToSiriTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToSiriTests.swift; sourceTree = "<group>"; };
+		929C4BD7234DD2F500033F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		929C4BDC234DD2F500033F63 /* AddToSiriUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AddToSiriUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		929C4BE0234DD2F500033F63 /* AddToSiriUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddToSiriUITests.swift; sourceTree = "<group>"; };
+		929C4BE2234DD2F500033F63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		929C4BB8234DD2F100033F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929C4BCE234DD2F500033F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929C4BD9234DD2F500033F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		929C4BB2234DD2F100033F63 = {
+			isa = PBXGroup;
+			children = (
+				929C4BBD234DD2F100033F63 /* AddToSiri */,
+				929C4BD4234DD2F500033F63 /* AddToSiriTests */,
+				929C4BDF234DD2F500033F63 /* AddToSiriUITests */,
+				929C4BBC234DD2F100033F63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		929C4BBC234DD2F100033F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				929C4BBB234DD2F100033F63 /* AddToSiri.app */,
+				929C4BD1234DD2F500033F63 /* AddToSiriTests.xctest */,
+				929C4BDC234DD2F500033F63 /* AddToSiriUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		929C4BBD234DD2F100033F63 /* AddToSiri */ = {
+			isa = PBXGroup;
+			children = (
+				929C4BBE234DD2F100033F63 /* AppDelegate.swift */,
+				929C4BC0234DD2F100033F63 /* SceneDelegate.swift */,
+				929C4BC2234DD2F100033F63 /* ViewController.swift */,
+				929C4BC4234DD2F100033F63 /* Main.storyboard */,
+				929C4BC7234DD2F500033F63 /* Assets.xcassets */,
+				929C4BC9234DD2F500033F63 /* LaunchScreen.storyboard */,
+				929C4BCC234DD2F500033F63 /* Info.plist */,
+			);
+			path = AddToSiri;
+			sourceTree = "<group>";
+		};
+		929C4BD4234DD2F500033F63 /* AddToSiriTests */ = {
+			isa = PBXGroup;
+			children = (
+				929C4BD5234DD2F500033F63 /* AddToSiriTests.swift */,
+				929C4BD7234DD2F500033F63 /* Info.plist */,
+			);
+			path = AddToSiriTests;
+			sourceTree = "<group>";
+		};
+		929C4BDF234DD2F500033F63 /* AddToSiriUITests */ = {
+			isa = PBXGroup;
+			children = (
+				929C4BE0234DD2F500033F63 /* AddToSiriUITests.swift */,
+				929C4BE2234DD2F500033F63 /* Info.plist */,
+			);
+			path = AddToSiriUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		929C4BBA234DD2F100033F63 /* AddToSiri */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929C4BE5234DD2F500033F63 /* Build configuration list for PBXNativeTarget "AddToSiri" */;
+			buildPhases = (
+				929C4BB7234DD2F100033F63 /* Sources */,
+				929C4BB8234DD2F100033F63 /* Frameworks */,
+				929C4BB9234DD2F100033F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AddToSiri;
+			productName = AddToSiri;
+			productReference = 929C4BBB234DD2F100033F63 /* AddToSiri.app */;
+			productType = "com.apple.product-type.application";
+		};
+		929C4BD0234DD2F500033F63 /* AddToSiriTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929C4BE8234DD2F500033F63 /* Build configuration list for PBXNativeTarget "AddToSiriTests" */;
+			buildPhases = (
+				929C4BCD234DD2F500033F63 /* Sources */,
+				929C4BCE234DD2F500033F63 /* Frameworks */,
+				929C4BCF234DD2F500033F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929C4BD3234DD2F500033F63 /* PBXTargetDependency */,
+			);
+			name = AddToSiriTests;
+			productName = AddToSiriTests;
+			productReference = 929C4BD1234DD2F500033F63 /* AddToSiriTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		929C4BDB234DD2F500033F63 /* AddToSiriUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 929C4BEB234DD2F500033F63 /* Build configuration list for PBXNativeTarget "AddToSiriUITests" */;
+			buildPhases = (
+				929C4BD8234DD2F500033F63 /* Sources */,
+				929C4BD9234DD2F500033F63 /* Frameworks */,
+				929C4BDA234DD2F500033F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				929C4BDE234DD2F500033F63 /* PBXTargetDependency */,
+			);
+			name = AddToSiriUITests;
+			productName = AddToSiriUITests;
+			productReference = 929C4BDC234DD2F500033F63 /* AddToSiriUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		929C4BB3234DD2F100033F63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1110;
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = "Moneytree KK";
+				TargetAttributes = {
+					929C4BBA234DD2F100033F63 = {
+						CreatedOnToolsVersion = 11.1;
+					};
+					929C4BD0234DD2F500033F63 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 929C4BBA234DD2F100033F63;
+					};
+					929C4BDB234DD2F500033F63 = {
+						CreatedOnToolsVersion = 11.1;
+						TestTargetID = 929C4BBA234DD2F100033F63;
+					};
+				};
+			};
+			buildConfigurationList = 929C4BB6234DD2F100033F63 /* Build configuration list for PBXProject "AddToSiri" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 929C4BB2234DD2F100033F63;
+			productRefGroup = 929C4BBC234DD2F100033F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				929C4BBA234DD2F100033F63 /* AddToSiri */,
+				929C4BD0234DD2F500033F63 /* AddToSiriTests */,
+				929C4BDB234DD2F500033F63 /* AddToSiriUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		929C4BB9234DD2F100033F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929C4BCB234DD2F500033F63 /* LaunchScreen.storyboard in Resources */,
+				929C4BC8234DD2F500033F63 /* Assets.xcassets in Resources */,
+				929C4BC6234DD2F100033F63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929C4BCF234DD2F500033F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929C4BDA234DD2F500033F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		929C4BB7234DD2F100033F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929C4BC3234DD2F100033F63 /* ViewController.swift in Sources */,
+				929C4BBF234DD2F100033F63 /* AppDelegate.swift in Sources */,
+				929C4BC1234DD2F100033F63 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929C4BCD234DD2F500033F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929C4BD6234DD2F500033F63 /* AddToSiriTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		929C4BD8234DD2F500033F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				929C4BE1234DD2F500033F63 /* AddToSiriUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		929C4BD3234DD2F500033F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 929C4BBA234DD2F100033F63 /* AddToSiri */;
+			targetProxy = 929C4BD2234DD2F500033F63 /* PBXContainerItemProxy */;
+		};
+		929C4BDE234DD2F500033F63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 929C4BBA234DD2F100033F63 /* AddToSiri */;
+			targetProxy = 929C4BDD234DD2F500033F63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		929C4BC4234DD2F100033F63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929C4BC5234DD2F100033F63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		929C4BC9234DD2F500033F63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				929C4BCA234DD2F500033F63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		929C4BE3234DD2F500033F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		929C4BE4234DD2F500033F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		929C4BE6234DD2F500033F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHGBD77CL3;
+				INFOPLIST_FILE = AddToSiri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getmoneytree.AddToSiri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		929C4BE7234DD2F500033F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHGBD77CL3;
+				INFOPLIST_FILE = AddToSiri/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getmoneytree.AddToSiri;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		929C4BE9234DD2F500033F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHGBD77CL3;
+				INFOPLIST_FILE = AddToSiriTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getmoneytree.AddToSiriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddToSiri.app/AddToSiri";
+			};
+			name = Debug;
+		};
+		929C4BEA234DD2F500033F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHGBD77CL3;
+				INFOPLIST_FILE = AddToSiriTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getmoneytree.AddToSiriTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AddToSiri.app/AddToSiri";
+			};
+			name = Release;
+		};
+		929C4BEC234DD2F500033F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHGBD77CL3;
+				INFOPLIST_FILE = AddToSiriUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getmoneytree.AddToSiriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddToSiri;
+			};
+			name = Debug;
+		};
+		929C4BED234DD2F500033F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LHGBD77CL3;
+				INFOPLIST_FILE = AddToSiriUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.getmoneytree.AddToSiriUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AddToSiri;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		929C4BB6234DD2F100033F63 /* Build configuration list for PBXProject "AddToSiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929C4BE3234DD2F500033F63 /* Debug */,
+				929C4BE4234DD2F500033F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929C4BE5234DD2F500033F63 /* Build configuration list for PBXNativeTarget "AddToSiri" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929C4BE6234DD2F500033F63 /* Debug */,
+				929C4BE7234DD2F500033F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929C4BE8234DD2F500033F63 /* Build configuration list for PBXNativeTarget "AddToSiriTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929C4BE9234DD2F500033F63 /* Debug */,
+				929C4BEA234DD2F500033F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		929C4BEB234DD2F500033F63 /* Build configuration list for PBXNativeTarget "AddToSiriUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				929C4BEC234DD2F500033F63 /* Debug */,
+				929C4BED234DD2F500033F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 929C4BB3234DD2F100033F63 /* Project object */;
+}
